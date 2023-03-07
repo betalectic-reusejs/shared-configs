@@ -1,0 +1,25 @@
+{
+  "name": "@betalectic-reusejs/shared-config-prettier-node",
+  "version": "1.0.0",
+  "description": "Betalectic's Prettier configuration for Node",
+  "main": "index.json",
+  "peerDependencies": {
+    "prettier": "2.5.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "publish-manual": "npm publish"
+  },
+  "keywords": [
+    "prettier",
+    "betalectic",
+    "react",
+    "reuse",
+    "shared"
+  ],
+  "author": "Shrey Dhyani",
+  "license": "ISC",
+  "devDependencies": {}
+}

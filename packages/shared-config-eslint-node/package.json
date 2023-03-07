@@ -1,0 +1,16 @@
+{
+  "name": "@betalectic-reusejs/shared-config-eslint-node",
+  "version": "1.0.0",
+  "main": "./eslint-config.js",
+  "description": "Betalectic's Eslint configuration for Node",
+  "scripts": {
+    "publish-manual": "npm publish"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "eslint": "^8.35.0",
+    "eslint-plugin-standard": "^5.0.0"
+  }
+}
