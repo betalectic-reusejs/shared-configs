@@ -4,7 +4,7 @@ Contains sharable configuration packages for Prettier and EsLint
 
 # How to use:
 
-Following are the instructions that you need to follow for using Prettier/EsLint shared configuration. Each Individual package have their own readme file which give a specialised set of instructions to use the package. Configuration steps will for EsLint and Prettier are different and general steps are given below:
+Following are the instructions that you need to follow for using Prettier/EsLint shared configuration. Configuration steps will for EsLint and Prettier are different and general steps are given below:
 
 > Following are some extensions that will allow you to get full use out of Prettier and EsLint
 > **Prettier - Code formatter**
