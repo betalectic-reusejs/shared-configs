@@ -6,13 +6,14 @@ Contains sharable configuration configuration packages for Prettier and EsLint
 
 Following are the instructions that you need to follow for using Prettier/EsLint shared configuration. Each Individual package have their own readme file which give a specialised set of instructions to use the package. Configuration steps will for EsLint and Prettier are different and general steps are given below:
 
-> Following are some extensions that will allow you to get full use out of Prettier and EsLint \***\*Prettier - Code formatter
-> ESLint\*\***
+> Following are some extensions that will allow you to get full use out of Prettier and EsLint
+> **Prettier - Code formatter**
+> **ESLint**
 
 ## Steps to setup Prettier-Configuration
 
 1. Add following packages as dev-dependencies
-   - \*\*[`@betalectic-reusejs/shared-config-prettier-node`](https://www.npmjs.com/package/@betalectic-reusejs/shared-config-prettier-node)\*\* (as per your requirements)
+   - [`@betalectic-reusejs/shared-config-prettier-node`](https://www.npmjs.com/package/@betalectic-reusejs/shared-config-prettier-node) (as per your requirements)
    - `prettier`
 
 ```bash
@@ -37,7 +38,7 @@ That should configure prettier for your project. The package only provides you w
 
 1. Add Following packages as dev-dependencies:
    - `eslint`
-   - \*\*[`@betalectic-reusejs/shared-config-eslint-node`](https://www.npmjs.com/package/@betalectic-reusejs/shared-config-eslint-node)\*\* (as per your requirements)
+   - [`@betalectic-reusejs/shared-config-eslint-node`](https://www.npmjs.com/package/@betalectic-reusejs/shared-config-eslint-node) (as per your requirements)
    - `eslint-plugin-react`
    - `eslint-plugin-standard`
 
