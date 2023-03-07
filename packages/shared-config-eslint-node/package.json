@@ -1,6 +1,6 @@
 {
   "name": "@betalectic-reusejs/shared-config-eslint-node",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "./eslint-config.js",
   "description": "Betalectic's Eslint configuration for Node",
   "scripts": {

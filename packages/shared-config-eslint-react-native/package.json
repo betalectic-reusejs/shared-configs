@@ -1,6 +1,6 @@
 {
   "name": "@betalectic-reusejs/shared-config-eslint-react-native",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "./eslint-config.js",
   "description": "Betalectic's Prettier configuration for Node",
   "scripts": {
