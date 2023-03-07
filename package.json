@@ -1,15 +1,30 @@
 {
-  "name": "shared-config-repo",
-  "version": "1.0.0",
-  "description": "",
+  "private": true,
+  "workspaces": [
+    "packages/"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint-node": "cd packages/shared-config-eslint-node && yarn",
+    "eslint-react": "cd packages/shared-config-eslint-react && yarn",
+    "eslint-react-native": "cd packages/shared-config-eslint-react-native && yarn",
+    "prettier-node": "cd packages/shared-config-prettier-node && yarn",
+    "prettier-react": "cd packages/shared-config-prettier-react && yarn",
+    "prettier-react-native": "cd packages/shared-config-prettier-react-native && yarn",
+    "all": "yarn eslint-node && yarn eslint-react && yarn eslint-react-native && yarn prettier-node && yarn prettier-react && yarn prettier-react-native",
+    "publish-shared-eslint-node": "cd packages/shared-config-eslint-node && npm publish",
+    "publish-shared-eslint-react": "cd packages/shared-config-eslint-react && npm publish",
+    "publish-shared-eslint-react-native": "cd packages/shared-config-eslint-react-native && npm publish",
+    "publish-shared-prettier-node": "cd packages/shared-config-prettier-node && npm publish",
+    "publish-shared-prettier-react": "cd packages/shared-config-prettier-react && npm publish",
+    "publish-shared-prettier-react-native": "cd packages/shared-config-prettier-react-native && npm publish",
+    "release": "changeset publish"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/betalectic-reusejs/shared-configs.git"
   },
-  "author": "",
+  "author": "Shrey Dhyani",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/betalectic-reusejs/shared-configs/issues"
