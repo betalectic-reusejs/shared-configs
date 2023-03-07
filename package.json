@@ -29,5 +29,8 @@
   "bugs": {
     "url": "https://github.com/betalectic-reusejs/shared-configs/issues"
   },
-  "homepage": "https://github.com/betalectic-reusejs/shared-configs#readme"
+  "homepage": "https://github.com/betalectic-reusejs/shared-configs#readme",
+  "dependencies": {
+    "@changesets/cli": "^2.26.0"
+  }
 }
