@@ -1,6 +1,6 @@
 # Shared-Configs
 
-Contains sharable configuration configuration packages for Prettier and EsLint
+Contains sharable configuration packages for Prettier and EsLint
 
 # How to use:
 
