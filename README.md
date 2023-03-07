@@ -12,7 +12,7 @@ Following are the instructions that you need to follow for using Prettier/EsLint
 ## Steps to setup Prettier-Configuration
 
 1. Add following packages as dev-dependencies
-   - \***\*[`@betalectic-reusejs/shared-config-prettier-node`](https://www.npmjs.com/package/@betalectic-reusejs/shared-config-prettier-node)\*\*** (as per your requirements)
+   - \*\*[`@betalectic-reusejs/shared-config-prettier-node`](https://www.npmjs.com/package/@betalectic-reusejs/shared-config-prettier-node)\*\* (as per your requirements)
    - `prettier`
 
 ```bash
@@ -37,7 +37,7 @@ That should configure prettier for your project. The package only provides you w
 
 1. Add Following packages as dev-dependencies:
    - `eslint`
-   - `[@shared-test/eslint-config-react](https://www.npmjs.com/package/@betalectic-reusejs/shared-config-eslint-node)` (as per your requirements)
+   - \*\*[`@betalectic-reusejs/shared-config-eslint-node`](https://www.npmjs.com/package/@betalectic-reusejs/shared-config-eslint-node)\*\* (as per your requirements)
    - `eslint-plugin-react`
    - `eslint-plugin-standard`
 
