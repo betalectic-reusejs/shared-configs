@@ -22,7 +22,7 @@ yarn add @betalectic-reusejs/shared-config-prettier-node prettier -D
 yarn add --dev @betalectic-reusejs/shared-config-prettier-node prettier
 ```
 
-1. Add following line to the package.json of your app.
+2. Add following line to the package.json of your app.
 
 ```json
 {
@@ -50,7 +50,7 @@ yarn add eslint @betalectic-reusejs/shared-config-eslint-node eslint-plugin-reac
 yarn add --dev eslint @betalectic-reusejs/shared-config-eslint-node eslint-plugin-react eslint-plugin-standard
 ```
 
-1. Now create a new file called `.eslintrc.js` in your project root, and add following code fragment to the file
+2. Now create a new file called `.eslintrc.js` in your project root, and add following code fragment to the file
 
 ```jsx
 module.exports = {
@@ -58,7 +58,7 @@ module.exports = {
 };
 ```
 
-1. In your package .json create a lint script as shown below:
+2. In your package .json create a lint script as shown below:
 
 ```jsx
 "lint": "yarn eslint '**/*.js' '**/*.jsx'",
