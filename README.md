@@ -63,11 +63,15 @@ One of the methods to keep your configuration dependency updated to latest versi
          - "github_user_name"
    ```
      
-- Make changes based on your need for eg. the aforementioned sample will check for any update on packages `@betalectic-reusejs/shared-config-prettier-react` and `@betalectic-reusejs/shared-config-eslint-react` **daily** and raise a PR whenever a new version of the package is released.
+- Make changes based on your needs, for eg. the aforementioned sample will check for any update on packages `@betalectic-reusejs/shared-config-prettier-react` and `@betalectic-reusejs/shared-config-eslint-react` **daily** and raise a PR whenever a new version of the package is released.
 - We can also add reviewers by using their `github user name`
     
 > Further in depth options for dependabot configuration can be found in the following docs: [Dependabot Options](https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file)
  
+ ## Additional Reading
+ 
+ - Guide on how to check linting error on Commits using *`pre-commit hooks`* can be found [here](https://github.com/betalectic-reusejs/shared-configs/blob/main/Pre-Commit-Hooks.md)
+ - Guide on how to reslove styling conflicts between *`eslint`* and *`prettier`* on commit can be found [here](https://github.com/betalectic-reusejs/shared-configs/blob/main/Prettier-EsLint-Conflict-Resolution.md)
 
 
 ## Contributors
