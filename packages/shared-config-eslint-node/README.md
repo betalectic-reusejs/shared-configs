@@ -13,7 +13,7 @@
 
 1. Add Following packages as dev-dependencies:
    - `eslint`
-   - [`@betalectic-reusejs/shared-config-eslint-node`](https://www.npmjs.com/package/@betalectic-reusejs/shared-config-eslint-node) (as per your requirements)
+   - [`@betalectic-reusejs/shared-config-eslint-node`](https://www.npmjs.com/package/@betalectic-reusejs/shared-config-eslint-node)
    - `eslint-plugin-react`
    - `eslint-plugin-standard`
 
