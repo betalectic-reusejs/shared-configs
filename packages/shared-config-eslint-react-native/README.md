@@ -9,11 +9,11 @@
 [npm-publish-action-image]: https://github.com/reusejs/react/actions/workflows/release.yml/badge.svg
 [npm-publish-action-url]: https://github.com/reusejs/react/actions/workflows/release.yml
 
-## Steps to setup ESLINT NODE
+## Steps to setup EsLint React-Native
 
 1. Add Following packages as dev-dependencies:
    - `eslint`
-   - [`@betalectic-reusejs/shared-config-eslint-react-native`](https://www.npmjs.com/package/@betalectic-reusejs/shared-config-eslint-react-native) (as per your requirements)
+   - [`@betalectic-reusejs/shared-config-eslint-react-native`](https://www.npmjs.com/package/@betalectic-reusejs/shared-config-eslint-react-native)
    - `eslint-plugin-react`
    - `eslint-plugin-standard`
 
