@@ -9,7 +9,7 @@
 [npm-publish-action-image]: https://github.com/reusejs/react/actions/workflows/release.yml/badge.svg
 [npm-publish-action-url]: https://github.com/reusejs/react/actions/workflows/release.yml
 
-## Steps to setup ESLINT NODE
+## Steps to setup EsLint React
 
 1. Add Following packages as dev-dependencies:
    - `eslint`
