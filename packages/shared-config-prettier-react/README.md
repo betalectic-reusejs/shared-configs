@@ -9,7 +9,7 @@
 [npm-publish-action-image]: https://github.com/reusejs/react/actions/workflows/release.yml/badge.svg
 [npm-publish-action-url]: https://github.com/reusejs/react/actions/workflows/release.yml
 
-## Steps to setup Prettier-Configuration
+## Steps to setup React Prettier-Configuration
 
 1. Add following packages as dev-dependencies
    - [`@betalectic-reusejs/shared-config-prettier-react`](https://www.npmjs.com/package/@betalectic-reusejs/shared-config-prettier-react)
