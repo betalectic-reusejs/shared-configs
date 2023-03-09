@@ -1,72 +1,73 @@
 # Shared-Configs
+This repository contains sharable configuration packages for Prettier and EsLint. These configuaration files can be added to your project and thus allow you to have a consistent formatting and linting configuration. Having this configuration in your project will allow all the developers to follow the same formating styles thus individual formatting styles will not hamper code readability.
 
-Contains sharable configuration packages for Prettier and EsLint
+# Why you should use Prettier and EsLint
+- Consistent code Formatting
+- Auto Code Formatting
+- Detects and Prevent common bugs and logical errors
+- Keeps code clean and readable by enforcing singular formatting style.
+- Makes multi-contributor repos more readable. 
 
 # How to use:
+Each sharable configuration-package have individual readme files which will walk you through the steps to use the configuration-packages in your project. Following is the list of all the packages, navigate to their respective readme files and follow the steps to add the configuration to your project.
 
-Following are the instructions that you need to follow for using Prettier/EsLint shared configuration. Configuration steps for EsLint and Prettier are different and general steps are given below:
+[![NPM version][npm-version-image-eslint-node]][npm-url-eslint-node] [EsLint Node Readme](https://github.com/betalectic-reusejs/shared-configs/blob/main/packages/shared-config-eslint-node/README.md)   
+[![NPM version][npm-version-image-eslint-react]][npm-url-eslint-react] [EsLint React Readme](https://github.com/betalectic-reusejs/shared-configs/blob/main/packages/shared-config-eslint-react/README.md)  
+[![NPM version][npm-version-image-eslint-react-native]][npm-url-eslint-react-native] [EsLint React-Native Readme](https://github.com/betalectic-reusejs/shared-configs/blob/main/packages/shared-config-eslint-react-native/README.md)   
+[![NPM version][npm-version-image-prettier-node]][npm-url-prettier-node] [Prettier Node Readme](https://github.com/betalectic-reusejs/shared-configs/blob/main/packages/shared-config-prettier-node/README.md)     
+[![NPM version][npm-version-image-prettier-react]][npm-url-prettier-react] [Prettier React Readme](https://github.com/betalectic-reusejs/shared-configs/blob/main/packages/shared-config-prettier-react/README.md)     
+[![NPM version][npm-version-image-prettier-react-native]][npm-url-prettier-react-native] [Prettier React-Native Readme](https://github.com/betalectic-reusejs/shared-configs/blob/main/packages/shared-config-prettier-react-native/README.md)    
 
-> Following are some extensions that will allow you to get full use out of Prettier and EsLint   
-> **- Prettier - Code formatter**  
-> **- ESLint**  
+[npm-url-eslint-node]: https://www.npmjs.com/package/@betalectic-reusejs/shared-config-eslint-node
+[npm-version-image-eslint-node]: https://img.shields.io/npm/v/@betalectic-reusejs/shared-config-eslint-node.svg?style=flat
+[npm-url-eslint-react]: https://www.npmjs.com/package/@betalectic-reusejs/shared-config-eslint-react
+[npm-version-image-eslint-react]: https://img.shields.io/npm/v/@betalectic-reusejs/shared-config-eslint-react.svg?style=flat
+[npm-url-eslint-react-native]: https://www.npmjs.com/package/@betalectic-reusejs/shared-config-eslint-react-native
+[npm-version-image-eslint-react-native]: https://img.shields.io/npm/v/@betalectic-reusejs/shared-config-eslint-react-native.svg?style=flat
+[npm-url-prettier-node]: https://www.npmjs.com/package/@betalectic-reusejs/shared-config-prettier-node
+[npm-version-image-prettier-node]: https://img.shields.io/npm/v/@betalectic-reusejs/shared-config-prettier-node.svg?style=flat
+[npm-url-prettier-react]: https://www.npmjs.com/package/@betalectic-reusejs/shared-config-prettier-react
+[npm-version-image-prettier-react]: https://img.shields.io/npm/v/@betalectic-reusejs/shared-config-prettier-react.svg?style=flat
+[npm-url-prettier-react-native]: https://www.npmjs.com/package/@betalectic-reusejs/shared-config-prettier-react-native
+[npm-version-image-prettier-react-native]: https://img.shields.io/npm/v/@betalectic-reusejs/shared-config-prettier-react-native.svg?style=flat
 
-## Steps to setup Prettier-Configuration
+# Useful VSCode Extensions
+Here are some extensions for **`VSCode`** that will allow you to get full use out of Prettier and EsLint   
+- **Prettier - Code formatter**  
+- **ESLint** 
 
-1. Add following packages as dev-dependencies
-   - [`@betalectic-reusejs/shared-config-prettier-node`](https://www.npmjs.com/package/@betalectic-reusejs/shared-config-prettier-node) (as per your requirements)
-   - `prettier`
+# How to keep your configuration up-to-date (`Dependabot`)
+One of the main issue with using packages is figuring out how to update the package to the latest version. Especially for configuration packages like this where the standard need to be followed as soon as any update happpens in formatting or linting standards. 
 
-```bash
-yarn add @betalectic-reusejs/shared-config-prettier-node prettier -D
-'or'
-yarn add --dev @betalectic-reusejs/shared-config-prettier-node prettier
-```
+One of the methods to keep your configuration dependency updated to latest version is to use **`dependabot`**. This github action scans your dependency array and creates a PR whenever a new version of the watched dependency is released. Thus freeing the developer from constantly keeping an eye out for any changes in configuration.
 
-2. Add following line to the package.json of your app.
+### Following are the steps to setup dependabot
 
-```json
-{
-  //Some Code
-  "prettier": "@betalectic-reusejs/shared-config-prettier-node"
-  //Some code
-}
-```
+**`Dependabot`** is a github action, so we have to create a `YAML` file in our `.github` folder. Following are the steps to setup dependabot in your project
 
-That should configure prettier for your project. The package only provides you with configuration for prettier and above steps show the easiest and simplest method to use this configuration. If you want to use some other methods to configure prettier or over ride the configuration pls refer to following link to configure your own prettier settings. [https://prettier.io/docs/en/configuration.html](https://prettier.io/docs/en/configuration.html)
-
-## Steps to setup ESLINT
-
-1. Add Following packages as dev-dependencies:
-   - `eslint`
-   - [`@betalectic-reusejs/shared-config-eslint-node`](https://www.npmjs.com/package/@betalectic-reusejs/shared-config-eslint-node) (as per your requirements)
-   - `eslint-plugin-react`
-   - `eslint-plugin-standard`
-
-Run Following Command to do so:
-
-```bash
-yarn add eslint @betalectic-reusejs/shared-config-eslint-node eslint-plugin-react eslint-plugin-standard -D
-'or'
-yarn add --dev eslint @betalectic-reusejs/shared-config-eslint-node eslint-plugin-react eslint-plugin-standard
-```
-
-2. Now create a new file called `.eslintrc.js` in your project root, and add following code fragment to the file
-
-```jsx
-module.exports = {
-  extends: ["@betalectic-reusejs/shared-config-eslint-node"],
-};
-```
-
-3. In your package .json create a lint script as shown below:
-
-```jsx
-"lint": "yarn eslint '**/*.js' '**/*.jsx'",
-```
-
-You have to give the target for the _linting_, here our sample project have `js` and `jsx` files so we give these file(all with given extension) as target for _linting_.
-
-> node_modules is automatically ignored in our package, you can add other ignore options by using `ignorePatterns: ["dist/"]` in `.eslintrc.cjs` or pass it in lint script as `yarn  eslint '**/*.js' --ignore-pattern 'dist/'`
+- Create a folder `.github` in your project root.
+- Create a file `dependabot.yml` in the folder `.github`
+- Add following script to you `dependabot.yml` file
+   
+   ```yml
+     version: 2
+     updates:
+      - package-ecosystem: npm
+       directory: "/" 
+       schedule:
+         interval: "daily"
+       allow:
+         - dependency-name: "@betalectic-reusejs/shared-config-prettier-react"
+         - dependency-name: "@betalectic-reusejs/shared-config-eslint-react"
+       reviewers:
+         - "github_user_name"
+   ```
+     
+- Make changes based on your need for eg. the aforementioned sample will check for any update on packages `@betalectic-reusejs/shared-config-prettier-react` and `@betalectic-reusejs/shared-config-eslint-react` **daily** and raise a PR whenever a new version of the package is released.
+- We can also add reviewers by using their `github user name`
+    
+> Further in depth options for dependabot configuration can be found in the following docs: [Dependabot Options](https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file)
+ 
 
 
 ## Contributors
