@@ -58,7 +58,7 @@ module.exports = {
 };
 ```
 
-2. In your package .json create a lint script as shown below:
+3. In your package .json create a lint script as shown below:
 
 ```jsx
 "lint": "yarn eslint '**/*.js' '**/*.jsx'",
