@@ -67,3 +67,10 @@ module.exports = {
 You have to give the target for the _linting_, here our sample project have `js` and `jsx` files so we give these file(all with given extension) as target for _linting_.
 
 > node_modules is automatically ignored in our package, you can add other ignore options by using `ignorePatterns: ["dist/"]` in `.eslintrc.cjs` or pass it in lint script as `yarn  eslint '**/*.js' --ignore-pattern 'dist/'`
+
+
+## Contributors
+
+<a href="https://github.com/betalectic-reusejs/shared-configs/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=betalectic-reusejs/shared-configs" />
+</a>
