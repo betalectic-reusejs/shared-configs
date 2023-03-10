@@ -14,22 +14,21 @@
 1. Add Following packages as dev-dependencies:
    - `eslint`
    - [`@betalectic-reusejs/shared-config-eslint-node`](https://www.npmjs.com/package/@betalectic-reusejs/shared-config-eslint-node)
-   - `eslint-plugin-react`
    - `eslint-plugin-standard`
 
 Run Following Command to do so:
 
 ```bash
-yarn add eslint @betalectic-reusejs/shared-config-eslint-node eslint-plugin-react eslint-plugin-standard -D
+yarn add eslint @betalectic-reusejs/shared-config-eslint-node eslint-plugin-standard -D
 'or'
-yarn add --dev eslint @betalectic-reusejs/shared-config-eslint-node eslint-plugin-react eslint-plugin-standard
+yarn add --dev eslint @betalectic-reusejs/shared-config-eslint-node eslint-plugin-standard
 ```
 
 2. Now create a new file called `.eslintrc.js` in your project root, and add following code fragment to the file
 
 ```jsx
 module.exports = {
-  extends: ["@betalectic-reusejs/shared-config-eslint-node"],
+  extends: ["./node_modules/@betalectic-reusejs/shared-config-eslint-node"],
 };
 ```
 

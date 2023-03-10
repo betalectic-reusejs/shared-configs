@@ -1,16 +1,16 @@
 module.exports = {
+  root: true,
   env: {
-    browser: true,
     es2021: true,
     node: true,
   },
-  extends: ["eslint:recommended", "plugin:react/recommended"],
+  extends: ["eslint:recommended"],
   overrides: [],
   parserOptions: {
     ecmaVersion: "latest",
     sourceType: "module",
   },
-  plugins: ["react", "standard"],
+  plugins: ["standard"],
   rules: {
     indent: ["error", "tab"],
     "linebreak-style": ["error", "unix"],
