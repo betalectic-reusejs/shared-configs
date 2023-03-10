@@ -35,7 +35,7 @@ module.exports = {
 3. In your package .json create a lint script as shown below:
 
 ```jsx
-"lint": "yarn eslint '**/*.js' '**/*.jsx'",
+"lint": "yarn eslint ./ --ext .js --fix",
 ```
 
 You have to give the target for the _linting_, here our sample project have `js` and `jsx` files so we give these file(all with given extension) as target for _linting_.
