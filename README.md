@@ -75,6 +75,9 @@ One of the methods to keep your configuration dependency updated to latest versi
  
  - Guide on how to check linting error on Commits using *`pre-commit hooks`* can be found [here](https://github.com/betalectic-reusejs/shared-configs/blob/main/Pre-Commit-Hooks.md)
  - Guide on how to reslove styling conflicts between *`eslint`* and *`prettier`* on commit can be found [here](https://github.com/betalectic-reusejs/shared-configs/blob/main/Prettier-EsLint-Conflict-Resolution.md)
+ - Guide on how to *`disable`* eslint or *`ignore`* files can be found [here](https://github.com/betalectic-reusejs/shared-configs/blob/main/Disabling_EsLint.md)
+ - Guide on how to *`extend`* EsLint configuration can be found [here](https://github.com/betalectic-reusejs/shared-configs/blob/main/Extending_EsLint.md)
+ - Guide on how to add and use *`Global Variables`* can be found [here](https://github.com/betalectic-reusejs/shared-configs/blob/main/Global_Variables.md)
 
 
 ## Contributors
