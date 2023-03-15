@@ -11,10 +11,11 @@ This repository contains sharable configuration packages for Prettier and EsLint
 # How to use:
 Each sharable configuration-package have individual readme files which will walk you through the steps to use the configuration-packages in your project. Following is the list of all the packages, navigate to their respective readme files and follow the steps to add the configuration to your project.
 
-[![NPM version][npm-version-image-eslint-node]][npm-url-eslint-node] [EsLint Node Readme](https://github.com/betalectic-reusejs/shared-configs/blob/main/packages/shared-config-eslint-node/README.md)   
+[![NPM version][npm-version-image-eslint-node]][npm-url-eslint-node] [EsLint Node Readme](https://github.com/betalectic-reusejs/shared-configs/blob/main/packages/shared-config-eslint-node/README.md)  
 [![NPM version][npm-version-image-eslint-nobejs]][npm-url-eslint-nobejs] [EsLint NobeJS Readme](https://github.com/betalectic-reusejs/shared-configs/blob/main/packages/shared-config-eslint-nobejs/README.md)  
 [![NPM version][npm-version-image-eslint-react]][npm-url-eslint-react] [EsLint React Readme](https://github.com/betalectic-reusejs/shared-configs/blob/main/packages/shared-config-eslint-react/README.md)  
 [![NPM version][npm-version-image-eslint-react-native]][npm-url-eslint-react-native] [EsLint React-Native Readme](https://github.com/betalectic-reusejs/shared-configs/blob/main/packages/shared-config-eslint-react-native/README.md)   
+[![NPM version][npm-version-image-prettier-js]][npm-url-prettier-js] [Prettier JS Readme](https://github.com/betalectic-reusejs/shared-configs/blob/main/packages/shared-config-prettier-js/README.md)  
 [![NPM version][npm-version-image-prettier-node]][npm-url-prettier-node] [Prettier Node Readme](https://github.com/betalectic-reusejs/shared-configs/blob/main/packages/shared-config-prettier-node/README.md)     
 [![NPM version][npm-version-image-prettier-react]][npm-url-prettier-react] [Prettier React Readme](https://github.com/betalectic-reusejs/shared-configs/blob/main/packages/shared-config-prettier-react/README.md)     
 [![NPM version][npm-version-image-prettier-react-native]][npm-url-prettier-react-native] [Prettier React-Native Readme](https://github.com/betalectic-reusejs/shared-configs/blob/main/packages/shared-config-prettier-react-native/README.md)    
@@ -27,6 +28,8 @@ Each sharable configuration-package have individual readme files which will walk
 [npm-version-image-eslint-react]: https://img.shields.io/npm/v/@betalectic-reusejs/shared-config-eslint-react.svg?style=flat
 [npm-url-eslint-react-native]: https://www.npmjs.com/package/@betalectic-reusejs/shared-config-eslint-react-native
 [npm-version-image-eslint-react-native]: https://img.shields.io/npm/v/@betalectic-reusejs/shared-config-eslint-react-native.svg?style=flat
+[npm-url-prettier-js]: https://www.npmjs.com/package/@betalectic-reusejs/shared-config-prettier-node
+[npm-version-image-prettier-js]: https://img.shields.io/npm/v/@betalectic-reusejs/shared-config-prettier-node.svg?style=flat
 [npm-url-prettier-node]: https://www.npmjs.com/package/@betalectic-reusejs/shared-config-prettier-node
 [npm-version-image-prettier-node]: https://img.shields.io/npm/v/@betalectic-reusejs/shared-config-prettier-node.svg?style=flat
 [npm-url-prettier-react]: https://www.npmjs.com/package/@betalectic-reusejs/shared-config-prettier-react
