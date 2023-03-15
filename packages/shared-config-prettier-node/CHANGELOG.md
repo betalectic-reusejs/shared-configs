@@ -1,5 +1,11 @@
 # @betalectic-reusejs/shared-config-prettier-node
 
+## 1.1.2
+
+### Patch Changes
+
+- 06ece33: Single Quotes rule changed to False
+
 ## 1.1.1
 
 ### Patch Changes
