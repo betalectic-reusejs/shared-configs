@@ -8,11 +8,6 @@ module.exports = {
   extends: ["eslint:recommended"],
   overrides: [],
   plugins: ["standard", "jest"],
-  rules: {
-    indent: ["error", "tab"],
-    "linebreak-style": ["error", "unix"],
-    quotes: ["error", "single"],
-    semi: ["error", "always"],
-  },
+  rules: {},
   ignorePatterns: ["node_modules/"],
 };
