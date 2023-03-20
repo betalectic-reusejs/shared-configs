@@ -1,6 +1,6 @@
 {
   "name": "@betalectic-reusejs/shared-config-prettier-react",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Betalectic's Prettier configuration for react",
   "main": "index.json",
   "peerDependencies": {

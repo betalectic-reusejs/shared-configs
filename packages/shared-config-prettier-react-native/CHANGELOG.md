@@ -1,5 +1,11 @@
 # @betalectic-reusejs/shared-config-prettier-react-native
 
+## 1.1.1
+
+### Patch Changes
+
+- 05ab060: Changed JSXSingleQuotes to false
+
 ## 1.1.0
 
 ### Minor Changes
