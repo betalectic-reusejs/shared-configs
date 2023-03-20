@@ -1,5 +1,11 @@
 # @betalectic-reusejs/shared-config-eslint-node
 
+## 1.2.1
+
+### Patch Changes
+
+- d01417d: Removed rules from Nobejs and Node Eslint.
+
 ## 1.2.0
 
 ### Minor Changes
