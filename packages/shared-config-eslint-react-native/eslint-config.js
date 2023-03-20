@@ -11,11 +11,6 @@ module.exports = {
     sourceType: "module",
   },
   plugins: ["react", "standard"],
-  rules: {
-    indent: ["error", "tab"],
-    "linebreak-style": ["error", "unix"],
-    quotes: ["error", "single"],
-    semi: ["error", "always"],
-  },
+  rules: {},
   ignorePatterns: ["node_modules/"],
 };
