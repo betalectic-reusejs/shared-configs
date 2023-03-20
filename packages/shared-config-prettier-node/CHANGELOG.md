@@ -1,5 +1,11 @@
 # @betalectic-reusejs/shared-config-prettier-node
 
+## 1.1.3
+
+### Patch Changes
+
+- b446708: Changed JSX single quote to false
+
 ## 1.1.2
 
 ### Patch Changes
