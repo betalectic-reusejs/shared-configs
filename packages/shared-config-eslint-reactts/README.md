@@ -16,15 +16,16 @@
    - [`@betalectic-reusejs/shared-config-eslint-reactts`](https://www.npmjs.com/package/@betalectic-reusejs/shared-config-eslint-reactts)
    - `eslint-plugin-react`
    - `eslint-plugin-standard`
+   - `eslint-plugin-prettier`
    - `@typescript-eslint/parser`
    - `@typescript-eslint/eslint-plugin`
 
 Run Following Command to do so:
 
 ```bash
-yarn add eslint @betalectic-reusejs/shared-config-eslint-reactts eslint-plugin-react eslint-plugin-standard @typescript-eslint/parser @typescript-eslint/eslint-plugin -D
+yarn add eslint @betalectic-reusejs/shared-config-eslint-reactts eslint-plugin-react eslint-plugin-standard eslint-plugin-prettier @typescript-eslint/parser @typescript-eslint/eslint-plugin -D
 'or'
-yarn add --dev eslint @betalectic-reusejs/shared-config-eslint-reactts eslint-plugin-react eslint-plugin-standard @typescript-eslint/parser @typescript-eslint/eslint-plugin
+yarn add --dev eslint @betalectic-reusejs/shared-config-eslint-reactts eslint-plugin-react eslint-plugin-standard eslint-plugin-prettier @typescript-eslint/parser @typescript-eslint/eslint-plugin
 ```
 
 2. Now create a new file called `.eslintrc.js` in your project root, and add following code fragment to the file
