@@ -28,6 +28,7 @@ module.exports = {
     "react/prop-types": "off",
     "@typescript-eslint/explicit-module-boundary-types": "off",
     "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/no-unused-vars": "error",
     "prettier/prettier": "error",
   },
   ignorePatterns: ["node_modules/"],
